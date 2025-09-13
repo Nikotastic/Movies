@@ -1,0 +1,424 @@
+﻿namespace Kardex.formularios
+{
+    partial class frmPeliculas
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPeliculas));
+            this.lblcodigo = new System.Windows.Forms.Label();
+            this.lbltitulo = new System.Windows.Forms.Label();
+            this.lblduracion = new System.Windows.Forms.Label();
+            this.lbltañolanza = new System.Windows.Forms.Label();
+            this.lblCalificacion = new System.Windows.Forms.Label();
+            this.txtCodigo = new System.Windows.Forms.TextBox();
+            this.txtTitulo = new System.Windows.Forms.TextBox();
+            this.txtDuracion = new System.Windows.Forms.TextBox();
+            this.grpConsulta = new System.Windows.Forms.GroupBox();
+            this.btnVolver = new System.Windows.Forms.Button();
+            this.dgvPeliculas = new System.Windows.Forms.DataGridView();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.btnAgregarDirector = new System.Windows.Forms.Button();
+            this.btnConsultar = new System.Windows.Forms.Button();
+            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.tbtnSalir = new System.Windows.Forms.ToolStripButton();
+            this.tbtnNuevo = new System.Windows.Forms.ToolStripButton();
+            this.tbtnModificar = new System.Windows.Forms.ToolStripButton();
+            this.tbtnGrabar = new System.Windows.Forms.ToolStripButton();
+            this.tbtnCancelar = new System.Windows.Forms.ToolStripButton();
+            this.tbtnEliminar = new System.Windows.Forms.ToolStripButton();
+            this.tbtnImprimir = new System.Windows.Forms.ToolStripButton();
+            this.cmbCalificacion = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.cmbDirectores = new System.Windows.Forms.ComboBox();
+            this.picTitulo = new System.Windows.Forms.PictureBox();
+            this.dtpfecha = new System.Windows.Forms.DateTimePicker();
+            this.grpConsulta.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvPeliculas)).BeginInit();
+            this.toolStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picTitulo)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // lblcodigo
+            // 
+            this.lblcodigo.AutoSize = true;
+            this.lblcodigo.Location = new System.Drawing.Point(25, 85);
+            this.lblcodigo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblcodigo.Name = "lblcodigo";
+            this.lblcodigo.Size = new System.Drawing.Size(52, 17);
+            this.lblcodigo.TabIndex = 2;
+            this.lblcodigo.Text = "Código";
+            // 
+            // lbltitulo
+            // 
+            this.lbltitulo.AutoSize = true;
+            this.lbltitulo.Location = new System.Drawing.Point(25, 144);
+            this.lbltitulo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbltitulo.Name = "lbltitulo";
+            this.lbltitulo.Size = new System.Drawing.Size(43, 17);
+            this.lbltitulo.TabIndex = 4;
+            this.lbltitulo.Text = "Titulo";
+            // 
+            // lblduracion
+            // 
+            this.lblduracion.AutoSize = true;
+            this.lblduracion.BackColor = System.Drawing.Color.Transparent;
+            this.lblduracion.Location = new System.Drawing.Point(25, 199);
+            this.lblduracion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblduracion.Name = "lblduracion";
+            this.lblduracion.Size = new System.Drawing.Size(65, 17);
+            this.lblduracion.TabIndex = 5;
+            this.lblduracion.Text = "Duración";
+            // 
+            // lbltañolanza
+            // 
+            this.lbltañolanza.AutoSize = true;
+            this.lbltañolanza.Location = new System.Drawing.Point(25, 267);
+            this.lbltañolanza.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbltañolanza.Name = "lbltañolanza";
+            this.lbltañolanza.Size = new System.Drawing.Size(133, 17);
+            this.lbltañolanza.TabIndex = 6;
+            this.lbltañolanza.Text = "Año de lanzamiento";
+            // 
+            // lblCalificacion
+            // 
+            this.lblCalificacion.AutoSize = true;
+            this.lblCalificacion.Location = new System.Drawing.Point(25, 334);
+            this.lblCalificacion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblCalificacion.Name = "lblCalificacion";
+            this.lblCalificacion.Size = new System.Drawing.Size(79, 17);
+            this.lblCalificacion.TabIndex = 7;
+            this.lblCalificacion.Text = "Calificación";
+            // 
+            // txtCodigo
+            // 
+            this.txtCodigo.Location = new System.Drawing.Point(159, 76);
+            this.txtCodigo.Margin = new System.Windows.Forms.Padding(4);
+            this.txtCodigo.Name = "txtCodigo";
+            this.txtCodigo.Size = new System.Drawing.Size(132, 22);
+            this.txtCodigo.TabIndex = 10;
+            // 
+            // txtTitulo
+            // 
+            this.txtTitulo.Location = new System.Drawing.Point(159, 135);
+            this.txtTitulo.Margin = new System.Windows.Forms.Padding(4);
+            this.txtTitulo.Name = "txtTitulo";
+            this.txtTitulo.Size = new System.Drawing.Size(491, 22);
+            this.txtTitulo.TabIndex = 11;
+            // 
+            // txtDuracion
+            // 
+            this.txtDuracion.Location = new System.Drawing.Point(159, 191);
+            this.txtDuracion.Margin = new System.Windows.Forms.Padding(4);
+            this.txtDuracion.Name = "txtDuracion";
+            this.txtDuracion.Size = new System.Drawing.Size(132, 22);
+            this.txtDuracion.TabIndex = 12;
+            // 
+            // grpConsulta
+            // 
+            this.grpConsulta.Controls.Add(this.btnVolver);
+            this.grpConsulta.Controls.Add(this.dgvPeliculas);
+            this.grpConsulta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.grpConsulta.Location = new System.Drawing.Point(659, 7);
+            this.grpConsulta.Margin = new System.Windows.Forms.Padding(4);
+            this.grpConsulta.Name = "grpConsulta";
+            this.grpConsulta.Padding = new System.Windows.Forms.Padding(4);
+            this.grpConsulta.Size = new System.Drawing.Size(651, 389);
+            this.grpConsulta.TabIndex = 17;
+            this.grpConsulta.TabStop = false;
+            this.grpConsulta.Text = "Consulta de información";
+            // 
+            // btnVolver
+            // 
+            this.btnVolver.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnVolver.FlatAppearance.BorderSize = 0;
+            this.btnVolver.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btnVolver.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVolver.Image = global::Kardex.Properties.Resources.btnVolver_fw;
+            this.btnVolver.Location = new System.Drawing.Point(600, 192);
+            this.btnVolver.Margin = new System.Windows.Forms.Padding(4);
+            this.btnVolver.Name = "btnVolver";
+            this.btnVolver.Size = new System.Drawing.Size(48, 50);
+            this.btnVolver.TabIndex = 1;
+            this.toolTip1.SetToolTip(this.btnVolver, "Cierra la consulta general de información");
+            this.btnVolver.UseVisualStyleBackColor = true;
+            this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
+            // 
+            // dgvPeliculas
+            // 
+            this.dgvPeliculas.BackgroundColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.dgvPeliculas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvPeliculas.Location = new System.Drawing.Point(8, 33);
+            this.dgvPeliculas.Margin = new System.Windows.Forms.Padding(4);
+            this.dgvPeliculas.Name = "dgvPeliculas";
+            this.dgvPeliculas.Size = new System.Drawing.Size(573, 356);
+            this.dgvPeliculas.TabIndex = 0;
+            this.dgvPeliculas.CellMouseDoubleClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgvPeliculas_CellMouseDoubleClick);
+            // 
+            // btnAgregarDirector
+            // 
+            this.btnAgregarDirector.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAgregarDirector.FlatAppearance.BorderSize = 0;
+            this.btnAgregarDirector.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btnAgregarDirector.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAgregarDirector.Image = global::Kardex.Properties.Resources.btnconsultar1;
+            this.btnAgregarDirector.Location = new System.Drawing.Point(383, 383);
+            this.btnAgregarDirector.Margin = new System.Windows.Forms.Padding(4);
+            this.btnAgregarDirector.Name = "btnAgregarDirector";
+            this.btnAgregarDirector.Size = new System.Drawing.Size(40, 33);
+            this.btnAgregarDirector.TabIndex = 25;
+            this.toolTip1.SetToolTip(this.btnAgregarDirector, "Consultar toda la información");
+            this.btnAgregarDirector.UseVisualStyleBackColor = true;
+            this.btnAgregarDirector.Click += new System.EventHandler(this.btnAgregarDirector_Click);
+            // 
+            // btnConsultar
+            // 
+            this.btnConsultar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnConsultar.FlatAppearance.BorderSize = 0;
+            this.btnConsultar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btnConsultar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnConsultar.Image = global::Kardex.Properties.Resources.btnconsultar1;
+            this.btnConsultar.Location = new System.Drawing.Point(300, 68);
+            this.btnConsultar.Margin = new System.Windows.Forms.Padding(4);
+            this.btnConsultar.Name = "btnConsultar";
+            this.btnConsultar.Size = new System.Drawing.Size(40, 33);
+            this.btnConsultar.TabIndex = 19;
+            this.toolTip1.SetToolTip(this.btnConsultar, "Consultar toda la información");
+            this.btnConsultar.UseVisualStyleBackColor = true;
+            this.btnConsultar.Click += new System.EventHandler(this.btnConsultar_Click_1);
+            // 
+            // toolStrip1
+            // 
+            this.toolStrip1.BackColor = System.Drawing.Color.Black;
+            this.toolStrip1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tbtnSalir,
+            this.tbtnNuevo,
+            this.tbtnModificar,
+            this.tbtnGrabar,
+            this.tbtnCancelar,
+            this.tbtnEliminar,
+            this.tbtnImprimir});
+            this.toolStrip1.Location = new System.Drawing.Point(0, 451);
+            this.toolStrip1.Name = "toolStrip1";
+            this.toolStrip1.Size = new System.Drawing.Size(663, 27);
+            this.toolStrip1.TabIndex = 20;
+            this.toolStrip1.Text = "toolStrip1";
+            // 
+            // tbtnSalir
+            // 
+            this.tbtnSalir.BackColor = System.Drawing.Color.Black;
+            this.tbtnSalir.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.tbtnSalir.Image = global::Kardex.Properties.Resources.btnsalir;
+            this.tbtnSalir.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tbtnSalir.Name = "tbtnSalir";
+            this.tbtnSalir.Size = new System.Drawing.Size(24, 24);
+            this.tbtnSalir.Text = "tbtnSalir";
+            this.tbtnSalir.ToolTipText = "Cerrar Formulario";
+            this.tbtnSalir.Click += new System.EventHandler(this.tbtnSalir_Click_1);
+            // 
+            // tbtnNuevo
+            // 
+            this.tbtnNuevo.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.tbtnNuevo.Image = global::Kardex.Properties.Resources.btnnuevo;
+            this.tbtnNuevo.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tbtnNuevo.Name = "tbtnNuevo";
+            this.tbtnNuevo.Size = new System.Drawing.Size(24, 24);
+            this.tbtnNuevo.ToolTipText = "Nuevo Registro";
+            this.tbtnNuevo.Click += new System.EventHandler(this.tbtnNuevo_Click_1);
+            // 
+            // tbtnModificar
+            // 
+            this.tbtnModificar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.tbtnModificar.Image = global::Kardex.Properties.Resources.icono_modificar_fw;
+            this.tbtnModificar.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tbtnModificar.Name = "tbtnModificar";
+            this.tbtnModificar.Size = new System.Drawing.Size(24, 24);
+            this.tbtnModificar.Text = "toolStripButton2";
+            this.tbtnModificar.ToolTipText = "Modificar Registro Actual";
+            // 
+            // tbtnGrabar
+            // 
+            this.tbtnGrabar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.tbtnGrabar.Image = global::Kardex.Properties.Resources.icono_guardar_fw;
+            this.tbtnGrabar.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tbtnGrabar.Name = "tbtnGrabar";
+            this.tbtnGrabar.Size = new System.Drawing.Size(24, 24);
+            this.tbtnGrabar.Text = "toolStripButton3";
+            this.tbtnGrabar.ToolTipText = "Grabar Información";
+            this.tbtnGrabar.Click += new System.EventHandler(this.tbtnGrabar_Click_2);
+            // 
+            // tbtnCancelar
+            // 
+            this.tbtnCancelar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.tbtnCancelar.Image = global::Kardex.Properties.Resources.icono_cancelar_fw;
+            this.tbtnCancelar.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tbtnCancelar.Name = "tbtnCancelar";
+            this.tbtnCancelar.Size = new System.Drawing.Size(24, 24);
+            this.tbtnCancelar.Text = "toolStripButton4";
+            this.tbtnCancelar.ToolTipText = "Cancelar";
+            this.tbtnCancelar.Click += new System.EventHandler(this.tbtnCancelar_Click_1);
+            // 
+            // tbtnEliminar
+            // 
+            this.tbtnEliminar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.tbtnEliminar.Image = global::Kardex.Properties.Resources.icono_eliminar_fw;
+            this.tbtnEliminar.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tbtnEliminar.Name = "tbtnEliminar";
+            this.tbtnEliminar.Size = new System.Drawing.Size(24, 24);
+            this.tbtnEliminar.Text = "toolStripButton5";
+            this.tbtnEliminar.ToolTipText = "Eliminar registro actual";
+            this.tbtnEliminar.Click += new System.EventHandler(this.tbtnEliminar_Click_1);
+            // 
+            // tbtnImprimir
+            // 
+            this.tbtnImprimir.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.tbtnImprimir.Image = global::Kardex.Properties.Resources.icono_imprimir_fw;
+            this.tbtnImprimir.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tbtnImprimir.Name = "tbtnImprimir";
+            this.tbtnImprimir.Size = new System.Drawing.Size(24, 24);
+            this.tbtnImprimir.Text = "toolStripButton6";
+            this.tbtnImprimir.ToolTipText = "Imprimir";
+            this.tbtnImprimir.Click += new System.EventHandler(this.tbtnImprimir_Click);
+            // 
+            // cmbCalificacion
+            // 
+            this.cmbCalificacion.FormattingEnabled = true;
+            this.cmbCalificacion.Location = new System.Drawing.Point(159, 327);
+            this.cmbCalificacion.Margin = new System.Windows.Forms.Padding(4);
+            this.cmbCalificacion.Name = "cmbCalificacion";
+            this.cmbCalificacion.Size = new System.Drawing.Size(193, 24);
+            this.cmbCalificacion.TabIndex = 22; 
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(25, 391);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(58, 17);
+            this.label1.TabIndex = 23;
+            this.label1.Text = "Director";
+            // 
+            // cmbDirectores
+            // 
+            this.cmbDirectores.FormattingEnabled = true;
+            this.cmbDirectores.Location = new System.Drawing.Point(159, 388);
+            this.cmbDirectores.Margin = new System.Windows.Forms.Padding(4);
+            this.cmbDirectores.Name = "cmbDirectores";
+            this.cmbDirectores.Size = new System.Drawing.Size(193, 24);
+            this.cmbDirectores.TabIndex = 24;
+            // 
+            // picTitulo
+            // 
+            this.picTitulo.Image = ((System.Drawing.Image)(resources.GetObject("picTitulo.Image")));
+            this.picTitulo.Location = new System.Drawing.Point(0, 4);
+            this.picTitulo.Margin = new System.Windows.Forms.Padding(4);
+            this.picTitulo.Name = "picTitulo";
+            this.picTitulo.Size = new System.Drawing.Size(237, 65);
+            this.picTitulo.TabIndex = 18;
+            this.picTitulo.TabStop = false;
+            // 
+            // dtpfecha
+            // 
+            this.dtpfecha.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpfecha.Location = new System.Drawing.Point(159, 267);
+            this.dtpfecha.Margin = new System.Windows.Forms.Padding(4);
+            this.dtpfecha.Name = "dtpfecha";
+            this.dtpfecha.Size = new System.Drawing.Size(132, 22);
+            this.dtpfecha.TabIndex = 41;
+            this.dtpfecha.Value = new System.DateTime(2024, 12, 9, 0, 0, 0, 0);
+            // 
+            // frmPeliculas
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Gainsboro;
+            this.ClientSize = new System.Drawing.Size(663, 478);
+            this.ControlBox = false;
+            this.Controls.Add(this.dtpfecha);
+            this.Controls.Add(this.btnAgregarDirector);
+            this.Controls.Add(this.cmbDirectores);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.cmbCalificacion);
+            this.Controls.Add(this.toolStrip1);
+            this.Controls.Add(this.btnConsultar);
+            this.Controls.Add(this.picTitulo);
+            this.Controls.Add(this.grpConsulta);
+            this.Controls.Add(this.txtDuracion);
+            this.Controls.Add(this.txtTitulo);
+            this.Controls.Add(this.txtCodigo);
+            this.Controls.Add(this.lblCalificacion);
+            this.Controls.Add(this.lbltañolanza);
+            this.Controls.Add(this.lblduracion);
+            this.Controls.Add(this.lbltitulo);
+            this.Controls.Add(this.lblcodigo);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Name = "frmPeliculas";
+            this.Load += new System.EventHandler(this.frmPeliculas_Load);
+            this.grpConsulta.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvPeliculas)).EndInit();
+            this.toolStrip1.ResumeLayout(false);
+            this.toolStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picTitulo)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+        private System.Windows.Forms.Label lblcodigo;
+        private System.Windows.Forms.Label lbltitulo;
+        private System.Windows.Forms.Label lblduracion;
+        private System.Windows.Forms.Label lbltañolanza;
+        private System.Windows.Forms.Label lblCalificacion;
+        private System.Windows.Forms.TextBox txtCodigo;
+        private System.Windows.Forms.TextBox txtTitulo;
+        private System.Windows.Forms.TextBox txtDuracion;
+        private System.Windows.Forms.GroupBox grpConsulta;
+        private System.Windows.Forms.ToolTip toolTip1;
+        private System.Windows.Forms.DataGridView dgvPeliculas;
+        private System.Windows.Forms.PictureBox picTitulo;
+        private System.Windows.Forms.Button btnConsultar;
+        private System.Windows.Forms.Button btnVolver;
+        private System.Windows.Forms.ToolStrip toolStrip1;
+        private System.Windows.Forms.ToolStripButton tbtnSalir;
+        private System.Windows.Forms.ToolStripButton tbtnNuevo;
+        private System.Windows.Forms.ToolStripButton tbtnModificar;
+        private System.Windows.Forms.ToolStripButton tbtnGrabar;
+        private System.Windows.Forms.ToolStripButton tbtnCancelar;
+        private System.Windows.Forms.ToolStripButton tbtnEliminar;
+        private System.Windows.Forms.ToolStripButton tbtnImprimir;
+        private System.Windows.Forms.ComboBox cmbCalificacion;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnAgregarDirector;
+        private System.Windows.Forms.ComboBox cmbDirectores;
+        private System.Windows.Forms.DateTimePicker dtpfecha;
+    }
+}
