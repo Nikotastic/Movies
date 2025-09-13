@@ -39,8 +39,8 @@
             this.crystalReportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.crystalReportViewer1.Location = new System.Drawing.Point(0, 0);
             this.crystalReportViewer1.Name = "crystalReportViewer1";
-            this.crystalReportViewer1.ReportSource = "C:\\Users\\NikoC\\OneDrive\\Documents\\Proyecto Peliculas (4)\\Proyecto Peliculas (3)\\P" +
-    "royecto Peliculas\\Kardex\\reportes\\ReporteDirectores.rpt";
+            this.crystalReportViewer1.ReportSource =
+    @"C:\Users\NikoC\INCA\CSharp\Proyecto Peliculas\Kardex\formularios\CrystalReport1.rpt";
             this.crystalReportViewer1.Size = new System.Drawing.Size(800, 450);
             this.crystalReportViewer1.TabIndex = 0;
             this.crystalReportViewer1.ToolPanelView = CrystalDecisions.Windows.Forms.ToolPanelViewType.None;

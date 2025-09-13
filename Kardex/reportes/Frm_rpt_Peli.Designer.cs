@@ -42,7 +42,7 @@
             this.crystalReportViewer1.Location = new System.Drawing.Point(0, 0);
             this.crystalReportViewer1.Name = "crystalReportViewer1";
             this.crystalReportViewer1.ReportSource =
-    @"C:\Users\NikoC\OneDrive\Documents\Proyecto Películas (4)\Proyecto Películas (3)\Proyecto Películas\Kardex\formularios\CrystalReport1.rpt";
+    @"C:\Users\NikoC\INCA\CSharp\Proyecto Peliculas\Kardex\formularios\CrystalReport1.rpt";
 
             this.crystalReportViewer1.Size = new System.Drawing.Size(791, 450);
             this.crystalReportViewer1.TabIndex = 0;
